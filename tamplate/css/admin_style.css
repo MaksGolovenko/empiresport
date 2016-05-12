@@ -1,0 +1,261 @@
+.wrapper {
+    outline: 0px solid red;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+}
+
+.clear { clear: both; }
+
+.wrapper a:hover {
+    text-decoration: underline;
+}
+/* header */
+header {
+    background: #76c7c0 right bottom repeat-x url(../images/headBG.png);
+    overflow: auto;
+    padding: 20px 25px;  
+}
+
+header a { display: block; }
+
+header img {
+    float: left;
+    margin-right: 10px;
+}
+
+/* Спільне для header та footer */
+.a_right, .footer_p_right { float: right; }
+
+.a_left, .footer_p_left { float: left; }
+
+header a, footer p {
+    font: bold 18px Arial, sans-serif;
+    color: #fff;
+}
+
+/* main */ 
+main {
+    padding: 40px 20px;
+}
+
+main h1 {
+    font: bold 25px Verdana, sans-serif ;
+    color: #3B6360;
+    margin-bottom: 80px;
+}
+
+main p {
+    font: bold 18px Verdana, sans-serif ;
+    color: #707676;
+    margin-bottom: 15px; 
+}
+
+main ul {
+    padding-left: 20px;
+    font: 18px Calibri, sans-serif;
+}
+    /* index anmin*/
+.index_admin li {
+     font: 18px Calibri, sans-serif;
+     margin-bottom: 8px;
+}
+
+.index_admin li a {
+    color: #e1524b;
+}
+
+.index_admin {
+    padding-bottom: 400px;
+}
+    /*admin: product, category, order*/
+.breadcrumbs ul{
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.breadcrumbs li{
+    float: left;
+    margin-right: 40px;
+    color: #006EB5;
+    font: bold 18px Verdana, sans-serif;
+}
+
+.breadcrumbs a {
+    background: #77c6bf;
+    background: linear-gradient(to bottom, #77c6bf 0%,#b08881 100%);
+    padding: 10px 35px;
+    color: #ffd;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.fa-plus {
+    padding: 10px 25px;
+    background: left center no-repeat url(../images/product+.png);
+    font: bold 15px Verdana, sans-serif;
+    color: #006EB5;
+    margin-left: 20px;
+}
+
+.overall_style section {
+    padding-bottom: 100px;
+}
+
+.overall_style h4 {
+    margin: 30px 0 30px 10px;
+    font: bold 16px Verdana, sans-serif;
+    color: #656A6A;
+}
+
+.overall_style table {
+    width: 100%;
+    padding: 0 25px;
+}
+
+.overall_style th {
+    padding: 15px 20px; 
+    color: #E2534B;
+    font-weight: bold;
+}
+
+.overall_style td {
+    padding: 15px 20px; 
+    border: 1px dashed #76c7c0;
+    color: #656A6A;
+} 
+
+.overall_style .table_width {
+    padding: 15px 0 15px 8px;
+}
+
+.overall_style td a {
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+.img_edit {
+    background-image: url(../images/edit.png);
+}
+
+.img_delete {
+    background-image: url(../images/delete.png);
+}
+
+.img_watch {
+    background-image: url(../images/watch.png);
+    width: 27px!important;
+}
+
+    /* order_details */
+
+.order_details h5 {
+    font: bold 18px Verdana, sans-serif;
+    color: #707676;
+    margin: 25px 0;
+}
+
+.order_details table {
+    width: 50%;
+    margin-left: 20px;
+}
+
+table.details_table {
+    width: 80%;
+}
+
+.order_details table th {
+    padding: 15px 20px; 
+    color: #E2534B;
+    font-weight: bold;
+}
+
+.order_details table td {
+    padding: 15px 20px; 
+    color: #656A6A;
+} 
+
+.order_back {
+    width: 10%;
+    display: block;
+    margin-top: 40px;
+    font: bold 16px 'Verdana', sans-serif;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    background: #76c7c0;
+    border-radius: 8px;
+}
+    /* order_update */
+.admin_h3 {
+    font: bold 20px Verdana, sans-serif;
+    color: #3B6360;
+}
+
+.admin_p {
+    margin-top: 30px;
+}
+
+.login-form {
+    margin-left: 40px;
+}
+
+.login-form input {
+    width: 20%;
+    padding: 7px 2%;
+    border: 2px solid #7f8c8c;
+    border-radius: 5px;
+    color: #707676;
+    font: 15px Verdana, sans-serif;
+}
+
+.login-form textarea {
+    width: 20%;
+    height: 120px;
+    resize: none;
+    padding: 7px 2%;
+    border: 2px solid #7f8c8c;
+    border-radius: 5px;
+    color: #707676;
+    font: 15px Verdana, sans-serif;
+}
+
+.input_file {
+    display: block;
+    margin-top: 20px;
+}
+
+.login-form select {
+    width: 24%;
+    padding: 7px 1%;
+    border: 2px solid #7f8c8c;
+    border-radius: 5px;
+    color: #707676;
+    font: 15px Verdana, sans-serif;
+    margin-bottom: 40px;
+    display: block;
+}
+
+main .admin_submit {
+    width: 15%;
+    border: 2px solid #f3f3f3;
+    border-radius: 20px;
+    background: #76c7c0;
+    color: #fff;
+    padding: 8px 0;
+    font: bold 15px Verdana, sans-serif;
+    cursor: pointer;
+    margin: 20px 0 100px;
+}
+    
+/* footer */
+
+footer {
+    background: #76c7c0 repeat-x url(../images/footerBG.png);
+    padding: 40px 25px 20px;
+    overflow: hidden;
+}
+
+footer p { font-size: 15px;}

@@ -1,0 +1,980 @@
+body {
+	background-color: #f3f3f3;
+}
+
+.wrapper {
+    outline: 0px solid red;
+    width: 1265px;
+    margin: 0 auto;
+    font-family: 'Myriad Pro', sans-serif;
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+.clear { clear: both; }
+
+header {
+    background: #76c7c0 right bottom repeat-x url(../images/headBG.png);
+    overflow: auto;
+    padding: 15px 10px;
+}
+
+header a {
+    color: #fff;
+}
+
+nav {
+    float: left;
+    overflow: visible;
+    width: 60%;
+}
+
+nav li {
+    float: left;
+    text-transform: uppercase;    
+    height: 33px;
+    padding: 0 10px;
+}
+
+nav li a {
+    float: left;
+    text-transform: uppercase;
+    padding: 11px 0;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;   
+}
+
+.nav_1 { width: 210px; }
+
+.nav_1:hover{
+    background-image: url(../images/h_n_hover1.png);
+    background-repeat: no-repeat;
+}
+
+.nav_2 { width: 181px; }
+
+.nav_2:hover{
+    background-image: url(../images/h_n_hover2.png);
+    background-repeat: no-repeat;
+}
+
+.nav_3 { width: 120px; }
+
+.nav_3:hover{
+    background-image: url(../images/h_n_hover3.png);
+    background-repeat: no-repeat;
+}
+
+.registr {
+    float: right;
+    overflow: visible;
+    width: 38%;
+    text-align: right;
+    padding-right: 2%;
+    color: #fff;
+    font-size: 13px;
+    padding-top: 6px;
+    position: relative;
+    z-index: 3;
+}
+
+.registr a {
+    text-decoration: underline;
+}
+
+.registr_hidden {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    padding: 45px 70px 10px;
+    background: #76c7c0;  
+    text-align: center;
+    display: none;
+}
+
+.registr_hidden a {
+    border: 2px solid #f3f3f3;
+    border-radius: 20px;
+    background: #76c7c0;
+    color: #fff;
+    padding: 8px;
+    font: bold 15px Verdana, sans-serif;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.registr_hidden a:hover {
+     border: 2px solid #AF8A83;
+}
+/* Блок з логотипом та пошуком */
+
+.logo_block {
+    padding: 15px 25px;
+    overflow: visible;
+    background-color: #ececec;
+}
+
+.img_logo {
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+
+.search {
+    float: left;
+    width: 62%;
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+.search input {
+    padding: 6px 145px 6px 30px;
+    border: 2px solid #7f8c8c;
+    border-radius: 5px;
+    width: 385px;
+    background: #fff 6px 5px no-repeat url(../images/search_icon.png);
+}
+
+.search_wr {
+    position: relative;
+}
+
+.search_goods {
+    position: absolute;
+    top: 0px;
+    right: 95px;
+    
+}
+
+.search_goods a {
+    display: block;
+    color: #fff;
+    padding: 6px 50px 7px 10px;
+    border: 2px solid #7f8c8c;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #b9bfbf 100px center no-repeat url(../images/search_ar.png);
+}
+
+.info{
+    float: right;
+    width: 17%;
+    text-align: right;
+    background:  215px 10px no-repeat url(../images/phone-img.png);
+    padding: 10px 60px 10px 0; 
+    font-size: 15px;
+    color: #7f8c8c;
+    border: 2px dashed #76c7c0;  
+}
+
+.info h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #707676;
+}
+
+.info h1, .info p {
+    margin-bottom: 5px;
+}
+
+.info span {
+    font-size: 16px; 
+}
+/* Головний блок */
+main {
+    overflow: visible;
+    padding: 40px 20px;
+}
+    /* Список товарів */
+
+aside {
+    float: left;
+    width: 22%;
+    outline: 0px solid black;
+}
+        /* Кнопка */
+.but_catalog, .catalog_product {
+    width: 85%;
+    height: 57px;
+    background: repeat-x url(../images/but_catalo.png);
+    border-radius: 15px;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    cursor: default;
+}
+
+.catalog_product {
+    width: 25%;
+}
+
+
+.but_catalog p, .catalog_product p {
+    padding-top: 16px;
+}
+        /* Список */
+.list_catalog {
+    margin-top: 2px;
+    padding-top: 25px;
+    background: #76c7c0 repeat-x url(../images/listCatalogBg.png);
+    font: bold 19px "Myriad Pro", sans-serif;
+    position: relative;
+}
+
+.list_catalog ul {
+    padding-left: 20px;
+}
+.list_catalog li {
+    padding: 13px 0;
+    border-bottom: 2px solid #e2534b;
+    
+}
+
+.list_catalog ul a {
+    color: #fff;
+    display: block;
+    padding-left: 2px;
+    background: 96% center no-repeat url(../images/list_ar.png);
+}
+
+.list_catalog li:last-child {
+    border: none;
+}
+
+.list_catalog ul a:hover {
+    text-decoration: underline;
+    color: #7f8c8c;
+    background-image: url(../images/list_ar_hover.png);
+}
+
+.bottom_bg {
+    height: 50px;
+    background: #76c7c0 left bottom repeat-x url(../images/listCatalogBgBottom.png);
+}
+
+            /* Вкладений список */
+.nested_list {
+    padding: 25px 2px 10px 5px;
+    width: 300px;
+    background: #76c7c0 repeat-x url(../images/listCatalogBg.png);
+    z-index: 2;
+    display: none;
+}
+.nested_list_two {
+    position: absolute;
+    padding: 25px 2px 10px 5px;
+    width: 300px;
+    right: -114%;
+    top: 0;
+    background: #76c7c0 repeat-x url(../images/listCatalogBg.png);
+    z-index: 2;
+    display: none;
+}
+
+.wrapper_nested_list {
+    position: absolute;
+    right: -114%;
+    top: 0;
+    z-index: 2;
+}
+
+.nested_list .nested_list_two {
+    padding: 25px 0px 2px 0;
+    right: -93%;
+    width: 285px;
+}
+
+.nested_list .nested_list_two a,
+.nested_list .nested_list_two a:hover {
+    background-image: none;
+}
+
+.none_hover {
+    background-image: none!important;
+}
+
+.transp_block {
+    width: 100%;
+    display: block!important;
+}
+
+
+    /* Основний блок з товарами */
+.center {
+    float: left;
+    width: 60%;
+}
+
+.center_one_product {
+    width: 82%;
+    float: left;
+}
+
+.center h1, .center_one_product h1 {
+    text-align: center;
+    color: #7f8c8c;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.center_one_product h1 {
+    margin-top: 30px;
+}
+
+.wrap_product {
+    width: 100%;
+    padding: 10px 0;
+    overflow: auto;
+}
+
+.block_goods {
+    padding: 0 1%;
+    float: left;
+    width: 31%;
+    margin-bottom: 40px;
+}
+
+.one_goods {
+    padding: 10px 0 0;
+    border: 1px dashed #76c7c0;
+    height: 265px;
+    position: relative;
+}
+
+.one_goods > a {
+    color: #e1524b;
+    text-align: center;
+}
+
+
+.one_goods a:hover {
+    text-decoration: underline;
+}
+
+.one_goods img {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 0 auto 30px;
+    
+}
+
+.one_goods span {
+    font-size: 15px;
+    display: block;
+    padding: 0 4px;
+}
+
+.goods_foot {
+    font-size: 18px;
+    font-weight: bold;  
+    background: #77c6bf;
+    background: linear-gradient(to bottom,  #77c6bf 0%,#b08881 100%); 
+    padding: 10px 3%;
+    color: #ffd;
+    position: absolute;
+    bottom: 0;
+    width: 94%;        
+}
+
+.goods_foot p a {
+    float: right;
+    color: #fff;
+}
+
+    /* Кошик */
+.basket {
+    float: left;
+    width: 18%;
+    outline: 0px solid black;
+    background: #ececec;
+
+}
+
+.basket h1 {
+    background: #77c6bf;
+    background: linear-gradient(to bottom,  #77c6bf 0%,#b08881 100%); 
+    padding: 9px 6px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; 
+}
+
+.basket_block {
+    text-align: center;
+    padding: 20px 0;
+    color: #707676;
+}
+
+.basket_block p {
+    margin-top: 15px;
+}
+
+/* footer */
+footer {
+    background: #76c7c0 repeat-x url(../images/footerBG.png);
+    padding-top: 50px;
+}
+
+.footer_top {
+    overflow: auto;
+    padding: 0 20px 30px;
+}
+
+.foot-info {
+    float: left;
+    width: 19%;
+    padding-left: 1%;
+}
+
+.foot-info h1 {
+    color: #3B6360;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.foot-info p {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.foot-info p span {
+    padding: 15px 0 6px;
+}
+
+.foot-info h2 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.foot-nav {
+    float: left;
+    width: 60%;
+    overflow: visible;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.foot-nav ul {
+    float: left;
+    width: 50%;
+}
+
+.foot-nav li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.foot-nav li a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.foot-nav li a:hover {
+    text-decoration: none;
+}
+
+.internet_m {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.internet_m a {
+    color: #3B6360;
+    font: bold 17px 'Times New Roman', sans-serif;
+}
+
+.internet_m a:hover {
+    color: #fff;
+}
+
+.internet_m span {
+    padding-bottom: 1px;
+    display: block;
+    font-size: 19px;
+}
+
+/**/
+
+.footer_bottom {
+    background: #6ab3ac;
+    padding: 15px 20px;
+    overflow: visible;
+}
+
+.footer_bottom p {
+    float: left;
+        
+}
+
+.footer_bottom ul {
+    float: right;
+}
+
+.footer_bottom ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+.footer_bottom ul a {
+    display: block;
+    height: 22px;
+}
+
+/**/
+.active {
+    color: #7f8c8c!important;
+}
+
+/* Сторінка з описом товарау */
+
+.catalog_product a {
+    color: #fff;
+}
+
+.one_product {
+    width: 100%;
+    overflow: visible;
+}
+
+
+.one_product img {
+    width: 300px;
+    height: 350px;
+    float: left;
+}
+
+.one_product_info {
+    float: left;
+    padding: 20px 40px 40px;
+
+}
+
+.one_product_info h2 {
+    font: bold 20px 'Myriad Pro', sans-serif;
+    margin-bottom: 10px;
+}
+
+.one_product_info p {
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #7f8c8c;
+}
+
+.one_product_info strong {
+     font: bold 30px 'Verdana', sans-serif;
+     margin-bottom: 10px;
+     display: block;
+}
+
+.one_product_info a {
+    width: 80%;
+    display: block;
+    margin-top: 30px;
+    font: bold 25px 'Verdana', sans-serif;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    background: #76c7c0;
+    border-radius: 8px;
+}
+.one_product_info a:hover {
+    color: #707676; 
+    text-decoration: underline;
+}
+
+.product_info {
+    margin-top: 50px;
+}
+
+.product_info h1 {
+    text-align: left;
+    font-size: 17px;
+    margin: 0 0 50px 40px;
+}
+
+
+.product_info p {
+    padding: 20px 20px 20px 40px;
+    font: 20px 'Verdana', sans-serif;
+    text-align: justify;
+    line-height: 35px; 
+    text-indent: 2%; 
+}
+
+.catalog_product {
+    position: relative;
+}
+
+.catalog_product .list_catalog {
+    position: absolute;
+    top: 58px;
+    width: 110%;
+    text-align: left;
+    z-index: 5;
+    display: none;
+    
+}
+
+.catalog_product .list_catalog a,
+.catalog_product .list_catalog a:hover {
+    background-image: none;
+}
+
+/* pagination */
+
+.pagination {
+    overflow: visible;
+    margin-left: 20px;
+}
+
+.pagination li {
+    float: left;
+    margin-right: 15px;
+    background: #76c7c0;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border:1px solid #f3f3f3;
+}
+
+.pagination li a {
+    display:block;
+    color: #fff;
+    padding-top: 5px;
+    font: 20px 'Myriad Pro', sans-serif;
+}
+
+.activet {
+    background: #E2534B!important;
+    border:1px solid #fff!important;
+    
+}
+
+
+/* Сторінка реєстрації */
+
+.form {
+    width: 100%;
+}
+
+.entrance, .registration, .form ul {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form ul {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.form ul li {
+    float: left;
+    width: 40%;
+    text-align: center;
+    background: #77c6bf;
+    background: linear-gradient(to bottom, #77c6bf 0%,#b08881 100%);
+    border: 5px solid #f3f3f3;
+    padding: 2% 4%;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form ul a {
+    color: #fff;
+    display: block;
+}
+
+.form table {
+    width: 100%;
+}
+
+.form table td {
+    width: 78%;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.errors  {
+    color: red;
+}
+
+.form table input {
+    width: 50%;
+    padding: 5px 2%;
+    border: 2px solid #7f8c8c;
+    border-radius: 5px;
+}
+
+.form input.button {
+    width: 30%;
+    border: 2px solid #f3f3f3;
+    border-radius: 20px;
+    background: #76c7c0;
+    color: #fff;
+    padding: 8px 0;
+    font: bold 15px Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.reg_end td{
+    font: bold 20px 'Myriad Pro', sans-serif;
+    color: #3B6360;
+} 
+
+/* Кабінет користувача */
+
+.cabinet {
+    width: 82%;
+    float: left;
+    padding-bottom: 250px;
+} 
+
+.cabinet h1 {
+    font: bold 40px 'Myriad Pro', sans-serif;
+    color: #3B6360;
+    margin-bottom: 20px;
+} 
+
+.cabinet ul {
+    margin-left: 50px;
+}
+.cabinet li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.cabinet li a {
+    color: #707676;
+}
+
+.cabinet a:hover {
+    text-decoration: underline;
+} 
+
+/* Зміна пароля */
+
+.form_edit {
+    width: 100%;
+}
+
+.entrance, .registration, .form_edit ul {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form_edit ul {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.form_edit ul li {
+    width: 50%;
+    text-align: center;
+    background: #77c6bf;
+    background: linear-gradient(to bottom, #77c6bf 0%,#b08881 100%);
+    border: 5px solid #f3f3f3;
+    padding: 2% 4%;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.form_edit table input {
+    width: 50%;
+    padding: 5px 2%;
+    border: 2px solid #7f8c8c;
+    border-radius: 5px;
+}
+
+.form_edit input.button {
+    width: 30%;
+    border: 2px solid #f3f3f3;
+    border-radius: 20px;
+    background: #76c7c0;
+    color: #fff;
+    padding: 8px 0;
+    font: bold 15px Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.form_edit table {
+    width: 100%;
+}
+
+.form_edit table td {
+    width: 78%;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+/* Детальна сторінка кошику */
+
+.basket_detail {
+    float: left;
+    width: 77%;
+    padding-left: 1%;
+}
+
+.row {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.row h2, .center_checkout h2 {
+   color: #3B6360;
+   font-size: 40px;
+   margin-bottom: 20px;
+}
+
+.row p {
+   color: #707676;
+   font-size: 20px;
+   margin-bottom: 40px;
+}
+
+.row table {
+    margin: 0 auto;
+}
+
+.table th, .table td {
+    padding: 15px 20px; 
+    border: 1px dashed #76c7c0;
+} 
+
+.table td {
+    text-align: center;
+    color: #7f8c8c;
+}
+
+.table td a {
+    text-align: center;
+    color: #058BD4;
+}
+
+.table td a:hover {
+    text-decoration: underline;
+}
+
+.table th {
+    color: #E2534B;
+    font-weight: bold;
+}
+
+.table td.not_center {
+    text-align: left;    
+}
+
+.table tr:last-child td {
+    padding-top: 30px;
+    font-weight: bold;
+    border: none;
+}
+
+.table .goods_delete {
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin: 0 auto;
+    background: no-repeat url(../images/delete.png);
+}
+
+.table .goods_delete:hover {
+    background: no-repeat url(../images/delete_hover.png);
+}
+
+.back_catalog {
+    background: #77c6bf;
+    background: linear-gradient(to bottom, #77c6bf 0%,#b08881 100%);
+    border: 5px solid #ececec;
+    padding: 15px 20px;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.back_catalog:hover {
+    border-color: #E2534B;
+}
+
+.checkout {
+    border: 2px solid #f3f3f3;
+    border-radius: 20px;
+    background: #76c7c0;
+    color: #fff;
+    display: block;
+    width: 18%;
+    padding: 15px 2%;
+    margin: 40px auto;
+    font: bold 15px Verdana, sans-serif;
+}
+
+.checkout:hover {
+    color: #707676;
+}
+
+/* Оформлення товару */
+.center_checkout {
+    float: left;
+    width: 74%;
+    padding: 10px 2%;
+    text-align: center;
+}
+
+.login-form {
+    padding: 20px 0;
+}
+
+.login-form_top p {
+    font-size: 20px;
+    color: #707676;
+    margin-bottom: 15px;
+}
+
+.login-form_top span {
+    font-size: 24px;
+    color: #AA8F87;
+    margin-bottom: 15px;
+}
+
+.login-form form {
+    margin-top: 50px;
+}
+
+.login-form form p, .order_processed {
+    margin-bottom: 10px;
+    color: #7f8c8c;
+    font: bold 16px Verdana, sans-serif;
+}
+
+.login-form form input {
+    width: 30%;
+    padding: 5px 2%;
+    border: 2px solid #7f8c8c;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.login-form input.btn-default {
+    width: 25%;
+    border: 2px solid #f3f3f3;
+    border-radius: 20px;
+    background: #76c7c0;
+    color: #fff;
+    padding: 8px 0;
+    font: bold 15px Verdana, sans-serif;
+    cursor: pointer;
+}
